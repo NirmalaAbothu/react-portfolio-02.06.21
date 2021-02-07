@@ -1,18 +1,27 @@
 /* .footer {
-  min-height: 100px;
-  background: #E5E5E5;
-  position: relative;
+     min-height: 100px;
+     background: #e5e5e5;
+     position: relative;
 }
 
 .footer span {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 3px;
-  background: #B8B8B8;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     padding: 3px;
+     background: #b8b8b8;
 } */
 
+/* .footer span {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     padding: 3px;
+     background: #b8b8b8;
+}
+*/
 .footer {
      position: fixed;
      left: 0;
@@ -21,4 +30,12 @@
      background-color: #368eec;
      color: white;
      text-align: center;
+}
+*/ .footer {
+     background-color: lightblue;
+     border-top: 5px solid lawngreen;
+     text-align: center;
+     position: fixed;
+     width: 100%;
+     bottom: 0;
 }

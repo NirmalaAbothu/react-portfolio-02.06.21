@@ -1,0 +1,86 @@
+h2,
+h5,
+h6,
+footer button {
+     color: white;
+}
+h1 {
+     border-bottom: 1px solid lightgray;
+     padding: 10px;
+}
+.col-md-10.col-sm-10 {
+     border: 5px solid whitesmoke;
+     margin-bottom: 40px;
+     background-color: white;
+}
+
+h5,
+h6,
+button {
+     background-color: #00eeff;
+}
+h3 {
+     color: white;
+}
+
+.content {
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+main {
+     padding-bottom: 20px;
+}
+
+img {
+     float: left;
+     border-radius: 4px;
+     margin: 12px;
+}
+.article1 {
+     margin-bottom: 10px;
+     padding: 15px;
+}
+.article2 {
+     padding: 5px;
+     margin-bottom: 10px;
+}
+
+.container {
+     border: 1px solid gray;
+     height: 100%;
+     width: 100%;
+     top: 0;
+     bottom: 0;
+     position: absolute;
+     left: 0;
+     right: 0;
+}
+
+/* body {
+     background-image: url(../Images/image3.jpg);
+} */
+
+h1,
+nav.name {
+     color: aqua;
+}
+
+.footer {
+     background-color: lightblue;
+     border-top: 5px solid lawngreen;
+     text-align: center;
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+}
+.links {
+     border: none;
+}
+.projectdetails {
+     border: solid 2px lightblue;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+.link {
+     font-size: 15px;
+}
