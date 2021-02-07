@@ -1,9 +1,6 @@
 import React from "react";
 import "../Assets/CSS/style.css";
 
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
 import profilepic from "../Assets/Images/IMG_78771.JPG";
 
 function About() {

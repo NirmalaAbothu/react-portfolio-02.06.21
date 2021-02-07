@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
-import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -51,6 +50,7 @@ class App extends React.Component {
                     <Container className="p-0" fluid={true}>
                          <Navbar
                               className="border-bottom"
+                              navbar-dark
                               bg="transparent"
                               expand="lg"
                          >

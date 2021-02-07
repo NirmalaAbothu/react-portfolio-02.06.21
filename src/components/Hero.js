@@ -10,9 +10,11 @@ function Hero(props) {
                <Container>
                     <Row>
                          <Col>
-                              {props.title && <h1>{props.title}</h1>}
-                              {props.subTitle && <h3>{props.subTitle}</h3>}
-                              {props.text && <h3>{props.text}</h3>}
+                              <div>
+                                   {props.title && <h1>{props.title}</h1>}
+                                   {props.subTitle && <p>{props.subTitle}</p>}
+                                   {props.text && <p>{props.text}</p>}
+                              </div>
                          </Col>
                     </Row>
                </Container>
