@@ -15,7 +15,7 @@ function Home(props) {
                          style={{
                               borderStyle: "groove",
                               marginBottom: "200px",
-                              marginTop: "200px",
+                              marginTop: "150px",
                               backgroundColor: "lightgreen",
                          }}
                     >
