@@ -1,6 +1,8 @@
 import React from "react";
 import "../Assets/CSS/style.css";
-
+// import Resume from "../Assets/Resume/Resume_Nirmala_Abothu_R.pdf";
+// src\Assets\Resume\Resume_Nirmala_ Abothu_R.pdf
+//import Resume from "Resume_Nirmala_ Abothu_R.pdf";
 import profilepic from "../Assets/Images/IMG_78771.JPG";
 
 function About() {
@@ -8,8 +10,11 @@ function About() {
           <div>
                <section className="row content">
                     <section className="col-md-1 col-sm-1 col-xs-12"></section>
-                    <article className="col-md-10 col-sm-10">
-                         <h1>About Me</h1>
+                    <article
+                         className="col-md-10 col-sm-10"
+                         style={{ backgroundColor: "#bbdef0" }}
+                    >
+                         <h1 style={{ color: "#0a0a0a" }}>About Me</h1>
                          <img
                               src={profilepic}
                               alt="NirmalaAbothu"
@@ -50,7 +55,11 @@ function About() {
                     <section className="col-md-1 col-sm-1 col-xs-12"></section>
                     <section
                          className="col-md-10 col-sm-10 links"
-                         style={{ textAlign: "center" }}
+                         style={{
+                              textAlign: "center",
+                              backgroundColor: "#bbdef0",
+                              marginBottom: "90px",
+                         }}
                     >
                          {/* <!-- GitHub Profile link --> */}
                          <section>
@@ -74,7 +83,7 @@ function About() {
                          <section>
                               <a
                                    target="_blank"
-                                   href="Assets//Resume/Resume_Nirmala_ Abothu_R.pdf"
+                                   href="pages/Resume_Nirmala_ Abothu_R.pdf"
                                    download
                               >
                                    Resume

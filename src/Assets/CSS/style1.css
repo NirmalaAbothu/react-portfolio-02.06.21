@@ -1,5 +1,5 @@
-h2,
 h5,
+h2,
 h6,
 footer button {
      color: white;
@@ -7,11 +7,14 @@ footer button {
 h1 {
      border-bottom: 1px solid lightgray;
      padding: 10px;
+     color: #0a0a0a;
 }
-.col-md-10.col-sm-10 {
+
+.col.s12.m4.l8 {
      border: 5px solid whitesmoke;
      margin-bottom: 40px;
-     background-color: white;
+
+     background-color: #bbdef0;
 }
 
 h5,
@@ -45,34 +48,14 @@ img {
      margin-bottom: 10px;
 }
 
-.container {
-     border: 1px solid gray;
-     height: 100%;
-     width: 100%;
-     top: 0;
-     bottom: 0;
-     position: absolute;
-     left: 0;
-     right: 0;
-}
-
 body {
-     background-color: #f7dcd7;
+     /* background-image: url(../Images/image3.jpg); */
 }
 
-h1,
 nav.name {
      color: aqua;
 }
 
-.footer {
-     background-color: lightblue;
-     border-top: 5px solid lawngreen;
-     text-align: center;
-     position: fixed;
-     width: 100%;
-     bottom: 0;
-}
 .links {
      border: none;
 }
@@ -84,6 +67,25 @@ nav.name {
 .link {
      font-size: 15px;
 }
-.bg-dark {
-     background-color: white !important;
+.copyright {
+     text-align: left;
+     font-size: large;
+}
+.links {
+     text-align: center;
+}
+.name {
+     width: max-content;
+     margin-top: 20px;
+}
+
+.email {
+     background-color: #ee9090;
+     margin-left: -65px;
+}
+.sidenav-overlay {
+     z-index: 1;
+}
+body {
+     background-color: #f7dcd7;
 }

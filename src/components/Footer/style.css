@@ -22,17 +22,17 @@
      background: #b8b8b8;
 }
 */
-.footer {
+/* .footer {
      position: fixed;
      left: 0;
      bottom: 0;
      width: 100%;
-     background-color: #368eec;
+     background-color: #ee6e73 !important;
      color: white;
      text-align: center;
-}
-*/ .footer {
-     background-color: lightblue;
+} */
+.footer {
+     background-color: #ee6e73 !important;
      border-top: 5px solid lawngreen;
      text-align: center;
      position: fixed;

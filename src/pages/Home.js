@@ -9,13 +9,23 @@ function Home(props) {
           // Home page
           <div>
                <section className="row content">
-                    <section className="col-md-1 col-sm-1 col-xs-12"></section>
-                    <article className="col-md-10 col-sm-10">
-                         <h1>React Portfolio</h1>
+                    <section className="col-md-4 col-sm-4 col-xs-12"></section>
+                    <article
+                         className="col-md-4 col-sm-4"
+                         style={{
+                              borderStyle: "groove",
+                              marginBottom: "200px",
+                              marginTop: "200px",
+                              backgroundColor: "lightgreen",
+                         }}
+                    >
+                         <h1 style={{ color: "black" }}>React Portfolio</h1>
                          <p style={{ fontSize: "30px" }}>
-                              Projects the make a difference, Checkout projects
+                              Projects makes a difference
                          </p>
+                         <p style={{ fontSize: "30px" }}>Checkout projects</p>
                     </article>
+                    <section className="col-md-4 col-sm-4"></section>
                </section>
           </div>
      );

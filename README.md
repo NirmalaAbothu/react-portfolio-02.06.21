@@ -6,31 +6,25 @@
 
 ---
 
-![alt text](Assets/Images/image1.PNG)
+![alt text](src/Assets/Images/image2.PNG)
 
 ---
 
-![alt text](Assets/Images/image2.PNG)
+![alt text](src/Assets/Images/image2.PNG)
 
 ---
 
-![alt text](Assets/Images/image3.PNG)
+![alt text](src/Assets/Images/image3.PNG)
 
 ---
 
-![alt text](Assets/Images/image4.PNG)
+![alt text](src/Assets/Images/image4.PNG)
 
 ---
 
-![alt text](Assets/Images/image5.PNG)
+![alt text](src/Assets/Images/image5.PNG)
 
 ---
-
-![alt text](Assets/Images/image6.PNG)
-
----
-
-![alt text](Assets/Images/image7.PNG)
 
 ---
 
@@ -43,6 +37,7 @@ Updated existing portfolio project with following:
 ## Technology used:
 
 -    React JS
+-    React Routes
 -    HTML and CSS
 
 To get a local copy up and running follow below steps.

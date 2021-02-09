@@ -49,25 +49,46 @@ class App extends React.Component {
                <Router basename={process.env.PUBLIC_URL}>
                     <Container className="p-0" fluid={true}>
                          <Navbar
-                              className="border-bottom"
-                              navbar-dark
-                              bg="transparent"
+                              // className="border-bottom"
+                              // navbar-dark
+                              // bg="transparent"
+                              // expand="lg"
+                              className="navbar navbar-expand-lg navbar-light"
                               expand="lg"
+                              style={{
+                                   backgroundColor: "#ee6e73",
+                              }}
                          >
-                              <Navbar.Brand>Nirmala Abothu</Navbar.Brand>
+                              {/* <Button gray={gray ? 1 : 0} to='path/to/page'>hoge</Button> */}
+                              {/* className="navbar navbar-expand-lg navbar-light bg-light" */}
+                              <Navbar.Brand style={{ color: "white" }}>
+                                   Nirmala Abothu
+                              </Navbar.Brand>
                               <Navbar.Toggle
                                    className="border-0"
                                    aria-controls="navbar-toggle"
                               />
-                              <Navbar.Collapse id="navbar-toggle">
+                              <Navbar.Collapse
+                                   id="navbar-toggle"
+                                   style={{ color: "white" }}
+                              >
                                    <Nav className="ml-auto">
-                                        <Link className="nav-link" to="/">
+                                        <Link
+                                             style={{ color: "white" }}
+                                             className="nav-link"
+                                             to="/"
+                                        >
                                              Home
                                         </Link>
-                                        <Link className="nav-link" to="/about">
+                                        <Link
+                                             style={{ color: "white" }}
+                                             className="nav-link"
+                                             to="/about"
+                                        >
                                              About
                                         </Link>
                                         <Link
+                                             style={{ color: "white" }}
                                              className="nav-link"
                                              to="/projects"
                                         >

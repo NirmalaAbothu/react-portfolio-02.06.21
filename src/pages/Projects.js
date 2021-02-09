@@ -18,7 +18,7 @@ function Projects() {
                          style={{
                               Border: "5px solid whitesmoke",
                               marginBottom: "40px",
-                              backgroundColor: "white",
+                              backgroundColor: "#e4deff",
                          }}
                     >
                          <h1>Weather Dashboard</h1>
@@ -56,7 +56,7 @@ function Projects() {
                                         <section className="col-md-12 col-sm-12 col-xs-12">
                                              <img
                                                   className="img-fluid"
-                                                  src={weather1.PNG}
+                                                  src={weather1}
                                                   alt="Portfoliopic"
                                              />
                                         </section>
@@ -123,7 +123,7 @@ function Projects() {
                          style={{
                               border: "5px solid whitesmoke",
                               marginBottom: "40px",
-                              backgroundColor: "white",
+                              backgroundColor: "#deffe4",
                          }}
                     >
                          <h1>Workday Scheduler</h1>
@@ -216,7 +216,7 @@ function Projects() {
                          style={{
                               border: "5px solid whitesmoke",
                               marginBottom: "40px",
-                              backgroundColor: "white",
+                              backgroundColor: "#5bb1935e",
                          }}
                     >
                          <h1>Hike Locator</h1>
@@ -309,14 +309,17 @@ function Projects() {
                </section>
                {/* <!-- 4th project --> */}
 
-               <section className="row content" style={{ marginTop: "40px" }}>
+               <section
+                    className="row content"
+                    style={{ marginTop: "40px", marginBottom: "50px" }}
+               >
                     <section className="col-md-1 col-sm-1 col-xs-12"></section>
                     <section
                          className="col-md-10 col-sm-10"
                          style={{
                               border: "5px solid whitesmoke",
-                              marginBottom: "40px",
-                              backgroundColor: "white",
+                              marginBottom: "90px",
+                              backgroundColor: "#91f54d5c",
                          }}
                     >
                          <h1>Burger with MVC</h1>
