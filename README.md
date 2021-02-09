@@ -6,7 +6,7 @@
 
 ---
 
-![alt text](src/Assets/Images/image2.PNG)
+![alt text](src/Assets/Images/image1.PNG)
 
 ---
 
