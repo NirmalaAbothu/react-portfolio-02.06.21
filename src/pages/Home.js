@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "../Assets/CSS/style.css";
 
+// Home component
+
 function Home(props) {
      return (
           // Home page

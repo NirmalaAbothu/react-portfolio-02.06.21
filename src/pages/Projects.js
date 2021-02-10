@@ -8,6 +8,7 @@ import workdayplanner2 from "../Assets/Images/workdayplanner2.PNG";
 import weather from "../Assets/Images/weather.PNG";
 import weather1 from "../Assets/Images/weather1.PNG";
 
+// projects component
 function Projects() {
      return (
           <div>

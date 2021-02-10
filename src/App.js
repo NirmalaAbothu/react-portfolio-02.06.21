@@ -1,5 +1,4 @@
 import React from "react";
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import About from "./pages/About";
@@ -49,18 +48,12 @@ class App extends React.Component {
                <Router basename={process.env.PUBLIC_URL}>
                     <Container className="p-0" fluid={true}>
                          <Navbar
-                              // className="border-bottom"
-                              // navbar-dark
-                              // bg="transparent"
-                              // expand="lg"
                               className="navbar navbar-expand-lg navbar-light"
                               expand="lg"
                               style={{
                                    backgroundColor: "#ee6e73",
                               }}
                          >
-                              {/* <Button gray={gray ? 1 : 0} to='path/to/page'>hoge</Button> */}
-                              {/* className="navbar navbar-expand-lg navbar-light bg-light" */}
                               <Navbar.Brand style={{ color: "white" }}>
                                    Nirmala Abothu
                               </Navbar.Brand>

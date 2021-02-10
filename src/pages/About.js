@@ -1,11 +1,9 @@
 import React from "react";
 import "../Assets/CSS/style.css";
-// import Resume from "../Assets/Resume/Resume_Nirmala_Abothu_R.pdf";
-// src\Assets\Resume\Resume_Nirmala_ Abothu_R.pdf
-//import Resume from "Resume_Nirmala_ Abothu_R.pdf";
+
 import profilepic from "../Assets/Images/IMG_78771.JPG";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
+// About page component
 function About() {
      return (
           <div>
@@ -83,7 +81,6 @@ function About() {
                          {/* <!-- Resume .pdf path --> */}
                          <section>
                               <a
-                                   // to="https://drive.google.com/file/d/1eDepcNyxdOYGvZS9GWgbJcDw27saVMuv/view?usp=sharing"
                                    target="_blank"
                                    href="https://drive.google.com/file/d/1eDepcNyxdOYGvZS9GWgbJcDw27saVMuv/view?usp=sharing"
                               >
