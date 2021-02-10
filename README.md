@@ -31,7 +31,7 @@
 Updated existing portfolio project with following:
 
 1. [GitHub Profile](https://github.com/NirmalaAbothu)
-2. [Updated Resume](Assets//Resume/Resume*Nirmala* Abothu_R.pdf)
+2. [Updated Resume](https://drive.google.com/file/d/1eDepcNyxdOYGvZS9GWgbJcDw27saVMuv/view?usp=sharing)
 3. [LinkedIn](https://www.linkedin.com/in/nirmala-abothu-170a7435/)
 
 ## Technology used:
